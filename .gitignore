@@ -1,0 +1,14 @@
+# Mac OS X
+.DS_Store
+
+# IDE
+.idea
+
+# Reports
+reports/
+
+# Gemlock
+Gemfile.lock
+
+# logs
+tmp/

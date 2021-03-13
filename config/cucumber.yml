@@ -1,0 +1,2 @@
+default: --format pretty --format junit --out=reports/ --format html --out=reports/features_report.html
+html_report: --format progress --format html --out=features_report.html

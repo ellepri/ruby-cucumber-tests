@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+  TargetRubyVersion: 2.7.2
+  NewCops: enable
+
+Layout/LineLength:
+  Enabled: true
+  Max: 250
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 15
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
